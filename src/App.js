@@ -1,6 +1,7 @@
 import React from "react";
-import { onAuthStateChanged } from 'firebase/auth';
+import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from './firebase';
+
 import AuthForm from './components/AuthForm';
 import ProfileForm from './components/ProfileForm';
 
